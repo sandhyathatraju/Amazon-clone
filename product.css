@@ -1,0 +1,304 @@
+.headset-p
+{
+    padding:10px 20px;
+    font-size:12px;
+    color:#565656d7;
+}
+body
+{
+    background-color:#fff;
+}
+.headset
+{
+    min-height:100%;
+    padding:10px 20px;
+    display:flex;
+    justify-content:space-evenly;
+}
+.headset-s-img
+{
+    display:flex;
+    gap:10px;
+}
+.headset-icons
+{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+.headset-icons img
+{
+    border:1px solid rgba(128, 128, 128, 0.329);
+    border-radius:10px;
+}
+.headset-details
+{
+    margin:0 30px;
+    
+}
+.headset-title
+{
+    font-size:30px;
+}
+.brand-store
+{
+    margin-top:5px;
+    color:#007185;
+    font-size:14px;
+}
+.headset-rating
+{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+.headset-rating div
+{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+.headset-rating p
+{
+    color:#007185;
+}
+.headset-rating p span
+{
+    color:white;
+    background-color:#c73500;
+    padding:2px 5px;
+    border-radius:3px;
+    font-size:14px;
+}
+.headset-rating h5
+{
+    font-weight:400;
+}
+.headset-price
+{
+    display:flex;
+    flex-direction:column;
+    gap:5px;
+}
+.headset-price div
+{
+    display:flex;
+    align-items: center;
+    gap:10px;
+    margin:10px 0;
+}
+.headset-price div p
+{
+    font-size:26px;
+    color:#c73500;
+}
+.headset-price div h1
+{
+    font-size:14px;
+    font-weight:500;
+}
+.headset-price div h1 span
+{
+    font-size:26px;
+    font-weight:500;
+}
+.headset-price div h1
+{
+    color:#565656d7;
+    font-weight:400;
+}
+.headset-price h5 span
+{
+    text-decoration:line-through;
+}
+.headset-price p span
+{
+    color:#007185;
+}
+.headset-color
+{
+    margin:15px 0;
+}
+.color-options
+{
+    display:flex;
+    justify-content:space-between;
+    margin-top:10px;
+}
+.option
+{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    border:1px solid #cbcbcb;
+    padding:8px 12px;
+}
+.headset-info
+{
+    display:grid;
+    grid-template-columns:auto auto;
+    max-width:300px;
+    margin-bottom:10px;
+}
+.headset-description
+{
+    font-size:20px;
+    margin:15px 0;
+}
+.headset-description ul
+{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    margin-left:5px;
+    font-size:15px;
+}
+.headset-purchase
+{
+    width:100%;
+    max-width:350px;
+    border:1px solid #c1c1c1;
+    border-radius:10px;
+    padding:15px;
+}
+.headset-purchase .title
+{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.headset-purchase .price
+{
+    font-size:16px;
+    font-weight:400;
+    margin:10px 0;
+}
+.headset-purchase .price span
+{
+    font-size:26px;
+    padding:2px;
+}
+.headset-purchase .gap
+{
+    margin:15px 0;
+}
+.headset-purchase .gap span
+{
+    color:#007185;
+}
+.delivery-location
+{
+    display:flex;
+    align-items:center;
+    gap:3px;
+    color:#007185;
+}
+.headset-stock
+{
+    margin:15px 0;
+    color:green;
+    font-weight:400;
+}
+.headset-quantity
+{
+    width:100%;
+    padding:8px 5px;
+    background-color: #efefef;
+    outline:none;
+    border-radius:5px;
+    border-color:#c1c1c1;
+}
+.headset-purchase .btn
+{
+    outline:none;
+    border:none;
+    width:100%;
+    margin-top:10px;
+    border-radius:50px;
+    padding:10px 0;
+    background-color: yellow;
+    cursor:pointer;
+}
+.headset-purchase .buy-btn
+{
+    background-color:rgba(255, 68, 0, 0.815);
+}
+.headset-seller-info
+{
+    display:grid;
+    grid-template-columns: auto auto;
+    margin-top:10px;
+    padding:10px;
+    gap:5px;
+    font-size:14px;
+    color:#565656;
+}
+.headset-seller-info  span
+{
+    color:#007185;
+}
+.headset-seller-info .pp
+{
+    font-weight:300;
+    color:black;
+    font-size:10px;
+}
+.headset-purchase .check
+{
+    margin-top:10px;
+    font-size:14px;
+    display:flex;
+    justify-content:space-between;
+}
+.headset-purchase hr
+{
+    margin:20px 0;
+}
+.add-list
+{
+    width:100%;
+    border-radius:5px;
+    border:1px solid black;
+    background-color:white;
+    padding:8px 15px;
+    cursor:pointer;
+    text-align:start;
+}
+.product-footer
+{
+    margin-top:100px;
+}
+
+/* -------------------Media Query-------------*/
+@media only screen and (max-width:900px)
+{
+    .headset
+    {
+        flex-wrap:wrap;
+    }
+}
+@media only screen and (max-width:600px)
+{
+    .headset-icons
+    {
+        display:none;
+    }
+    .headset-m-img img
+    {
+        width:100%;
+        padding:20px;
+    }
+    .option
+    {
+        padding:6px 8px;
+    }
+    .option p
+    {
+        display:none;
+    }
+    .headset-purchase
+    {
+        max-width:90%;
+        margin:20px auto 10px;
+    }
+}

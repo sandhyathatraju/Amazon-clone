@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Overflow Example</title>
+    <style>
+        .container {
+            width: 200px;
+            height: 100px;
+            border: 2px solid black;
+            margin: 20px;
+        }
+
+        .hidden {
+            overflow: hidden; /* Content beyond the box will be hidden */
+        }
+
+        .scroll {
+            overflow: scroll; /* Scrollbars appear when content overflows */
+        }
+
+        .auto {
+            overflow: auto; /* Scrollbars appear only if content overflows */
+        }
+    </style>
+</head>
+<body>
+    <h2>Overflow: Hidden</h2>
+    <div class="container hidden">
+        This is some long text that overflows the box but will be hidden.b,,,,,,,,,,,,,chvcgcgvjhvvvvvvvvvvvvvvvv,,,,,k guk,jbn dtgvb yhaldnv o2rwkqlf lvw44;ql v4j3ql
+        This is some long text that overflows the box but will be hidden.b,,,,,,,,,,,,,chvcgcgvjhvvvvvvvvvvvvvvvv,,,,,k guk,jbn dtgvb yhaldnv o2rwkqlf lvw44;ql v4j3ql
+    </div>
+
+    <h2>Overflow: Scroll</h2>
+    <div class="container scroll">
+        This is some long text that overflows the box, and you will see scrollbars.
+        This is some long text that overflows the box but will be hidden.b,,,,,,,,,,,,,chvcgcgvjhvvvvvvvvvvvvvvvv,,,,,k guk,jbn dtgvb yhaldnv o2rwkqlf lvw44;ql v4j3ql
+    </div>
+
+    <h2>Overflow: Auto</h2>
+    <div class="container auto">
+        This is some long text that overflows the box, and scrollbars will appear if needed.This is some long text that overflows the box but will be hidden.b,,,,,,,,,,,,,chvcgcgvjhvvvvvvvvvvvvvvvv,,,,,k guk,jbn dtgvb yhaldnv o2rwkqlf lvw44;ql v4j3ql
+    </div>
+</body>
+</html>
